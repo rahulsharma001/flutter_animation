@@ -20,6 +20,14 @@ class _LogoAppState extends State<LogoApp> with SingleTickerProviderStateMixin {
           // the state that has changed here is the animation object’s value
         });
       });
+
+//       animation.addStatusListener((status){
+// if(status==AnimationStatus.completed){
+//   controller.reverse();
+// }else if(status==AnimationStatus.dismissed){
+
+// }
+      // });
     controller.repeat();
   }
 
