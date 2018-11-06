@@ -24,7 +24,7 @@ class _LogoAppState extends State<LogoApp> with SingleTickerProviderStateMixin {
   }
 
   Widget build(BuildContext context) {
-        final Matrix4 transform = new Matrix4.rotationZ(90 * 2.0);
+        final Matrix4 transform = new Matrix4.rotationY(180*1.0);
 
     return Container(
       // margin: EdgeInsets.symmetric(vertical: 10.0),
@@ -48,7 +48,7 @@ class _LogoAppState extends State<LogoApp> with SingleTickerProviderStateMixin {
               ),
             ),
             left: animation.value,
-            top: 40.0,
+            top: 180.0,
           ),
         ],
       ),
